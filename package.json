@@ -1,0 +1,20 @@
+{
+  "name": "repro-vite-exports-bug",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "types": "wrangler types env.d.ts --include-runtime false",
+    "start": "vite dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.15.3",
+    "@cloudflare/workers-types": "^4.20251127.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.4",
+    "wrangler": "^4.51.0"
+  }
+}

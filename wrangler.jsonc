@@ -1,0 +1,5 @@
+{
+  "name": "repro-vite-exports-bug",
+  "compatibility_date": "2025-11-27",
+  "main": "src/index.ts"
+}
