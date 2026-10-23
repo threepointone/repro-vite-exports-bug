@@ -7,9 +7,15 @@ export class MyDurableObject extends DurableObject {
   }
 }
 
+export class Hello {
+  sayHello() {
+    return "Hello, world!";
+  }
+}
+
 export default {
   fetch: (request: Request, env: Env, ctx: ExecutionContext) => {
-    console.log("exports", exports);
+    console.log("exports", exports.Hello);
     console.log("ctx.exports", ctx.exports);
     return new Response("Hello, world!");
   },
